@@ -1,9 +1,9 @@
-﻿namespace myfinance_web_dotnet_domain.entities;
+﻿namespace myfinance_web_dotnet_domain.Entities;
 
 public class PlanoConta
 {
 
-  public int? Id {get; set;}
-  public string Descricao {get; set;}
-  public string Tipo {get; set;}
+  public int? id {get; set;}
+  public string descricao {get; set;}
+  public string tipo {get; set;}
 }
